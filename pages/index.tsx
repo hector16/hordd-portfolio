@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Layout>
+        <title>PixelOpedia</title>
         <Title> PixelOpedia </Title>
         <SubTitle>Coming soon...</SubTitle>
       </Layout>
