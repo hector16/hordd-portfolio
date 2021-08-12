@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Layout>
-        <Title> Welcome to gaming </Title>
-        <SideBar />
+        <Title> PixelOpedia </Title>
+        <SubTitle>Coming soon...</SubTitle>
       </Layout>
     </div>
   )
@@ -15,4 +15,6 @@ const Home = () => {
 
 export default Home
 
-const Title = tw.h1`text-center text-primaryPink-light text-4xl rounded border-gray-200`
+const Title = tw.h1`text-center text-cyberPink-light text-4xl`
+
+const SubTitle = tw.h2`text-center text-orange-500 text-2xl`

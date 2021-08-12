@@ -1,6 +1,11 @@
 import React from 'react'
 import { IconType } from 'react-icons'
-import { RiHome5Line, RiWindyLine } from 'react-icons/ri'
+import {
+  RiHome5Line,
+  RiWindyLine,
+  RiLineChartFill,
+  RiBubbleChartLine
+} from 'react-icons/ri'
 import tw, { TwStyle } from 'twin.macro'
 import clsx from 'clsx'
 
@@ -16,6 +21,12 @@ const Icon = ({ type, className }: IconProps) => {
   switch (type) {
     case 'home':
       IconCom = RiHome5Line
+      break
+    case 'bullChart':
+      IconCom = RiLineChartFill
+      break
+    case 'bubble':
+      IconCom = RiBubbleChartLine
       break
     default:
       IconCom = RiWindyLine
