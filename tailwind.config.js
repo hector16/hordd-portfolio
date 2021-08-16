@@ -5,7 +5,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      Rubik: ['sans-serif']
+      sans: ['Gill Sans']
     },
     colors: {
       ...colors,

@@ -16,6 +16,6 @@ const Home = () => {
 
 export default Home
 
-const Title = tw.h1`text-center text-cyberPink-light text-4xl`
+const Title = tw.h1`text-center  text-cyberPink-light text-4xl`
 
 const SubTitle = tw.h2`text-center text-orange-500 text-2xl`

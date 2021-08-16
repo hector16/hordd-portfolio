@@ -17,4 +17,4 @@ const Layout = ({ children }: LayoutProps) => {
 
 export default Layout
 
-const LayoutContainer = tw.div`h-screen w-screen bg-cyberPurple`
+const LayoutContainer = tw.div`h-screen w-screen `
