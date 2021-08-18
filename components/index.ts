@@ -1,4 +1,4 @@
 import Layout from './Layout'
-import SideBar from './SideBar'
+import Header from './Header/Header'
 
-export { Layout, SideBar }
+export { Layout, Header }

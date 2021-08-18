@@ -1,6 +1,6 @@
 import React from 'react'
 import tw from 'twin.macro'
-import { SideBar } from 'components'
+import { Header } from 'components'
 
 type LayoutProps = {
   children: React.ReactNode
@@ -9,7 +9,7 @@ type LayoutProps = {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <LayoutContainer>
-      <SideBar />
+      <Header />
       {children}
     </LayoutContainer>
   )
