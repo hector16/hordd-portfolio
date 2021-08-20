@@ -5,33 +5,28 @@ import { Drawer, Input, useDisclosure } from '@chakra-ui/react'
 import Search from './Search'
 
 const Header = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure()
-
   return (
     <>
-      <Drawer isOpen={isOpen} onClose={onClose} placement="top">
-        <HeaderContainer>
-          <HeaderTitle>PixelOpedia</HeaderTitle>
-          <Search />
-          <HeaderItems>
-            <HeaderItem>
-              <HeaderIcon color={tw`text-cyberPink-light`} type="home" />
-              Home
-            </HeaderItem>
+      <HeaderContainer>
+        <HeaderTitle>PixelOpedia</HeaderTitle>
+        <Search />
+        <HeaderItems>
+          <HeaderItem>
+            <HeaderIcon color={tw`text-cyberPink-light`} type="home" />
+            Home
+          </HeaderItem>
 
-            <HeaderItem>
-              <HeaderIcon color={tw`text-cyberGreen`} type="bullChart" />
-              Trending
-            </HeaderItem>
+          <HeaderItem>
+            <HeaderIcon color={tw`text-cyberGreen`} type="bullChart" />
+            Trending
+          </HeaderItem>
 
-            <HeaderItem>
-              <HeaderIcon color={tw`text-blue-300`} type="bubble" />
-              Genres
-            </HeaderItem>
-          </HeaderItems>
-        </HeaderContainer>
-      </Drawer>
-      <MenuIcon type="menu" onClick={onOpen} />
+          <HeaderItem>
+            <HeaderIcon color={tw`text-blue-300`} type="bubble" />
+            Genres
+          </HeaderItem>
+        </HeaderItems>
+      </HeaderContainer>
     </>
   )
 }

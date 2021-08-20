@@ -1,6 +1,6 @@
 import React from 'react'
 import tw from 'twin.macro'
-import { Header } from 'components'
+import { Header } from 'components/Header'
 
 type LayoutProps = {
   children: React.ReactNode

@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css'
 import tw from 'twin.macro'
-import { Layout } from 'components'
+import { Layout } from 'components/Layout'
 
 const Home = () => {
   return (
